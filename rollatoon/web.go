@@ -24,6 +24,4 @@ func init() {
 		Methods("GET")
 
 	http.Handle("/", r)
-
-	http.ListenAndServe(":1968", nil)
 }
